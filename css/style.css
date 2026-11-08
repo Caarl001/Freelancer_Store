@@ -20,11 +20,24 @@ body {
     text-align: center;
     color: var(--rojo);
     font-size: 3.8rem; 
-
 }
 
 .titulo span {
     font-size: 2rem;
     color:black;
+}
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+}
+.navegacion-principal{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.navegacion-principal  a{
+    color:var(--blanco);
 }
 
