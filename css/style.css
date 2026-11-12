@@ -7,9 +7,10 @@
     --secundario:#0097A7;
 }
 
+/* GLOBALES */
 html {
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box;/* HACK PARA BOX MODEL */
 }
 
 *, *:before, *:after {
@@ -19,32 +20,6 @@ html {
 body {
     font-size: 16px;
     font-family: "Krub", sans-serif;
-}
-h1 {
-    font-size: 3.8rem;
-}
-h2 {
-    font-size: 2.8rem;
-}
-h3 {
-    font-size: 1.8rem;
-}
-h4 {
-    font-size: 1rem;
-}
-h1, h2, h3 {
-    text-align: center;
-}
-.titulo {
-    color: var(--rojo); 
-}
-.titulo span {
-    font-size: 2rem;
-    color:black;
-}
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
 }
 .boton {
     background-color: var(--secundario);
@@ -66,6 +41,37 @@ h1, h2, h3 {
    }
 }
 
+/* TIPOGRAFIAS */
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 2.8rem;
+}
+h3 {
+    font-size: 1.8rem;
+}
+h4 {
+    font-size: 1rem;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* TITULOS */
+.titulo {
+    color: var(--rojo); 
+}
+.titulo span {
+    font-size: 2rem;
+    color:black;
+}
+
+/* NAVEGACION PRINCIPAL */
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
 .nav-bg{
     background-color: var(--secundario);
 }
@@ -94,6 +100,7 @@ h1, h2, h3 {
     color: var(--oscuro);
 }
 
+/* HERO */
 .hero{
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
@@ -117,7 +124,8 @@ h1, h2, h3 {
 .contenido-hero p {
     color: var(--blanco);
 }
-.ubicacion {
+
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
 }
